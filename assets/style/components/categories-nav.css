@@ -1,0 +1,33 @@
+#categories-scroll-section .scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+#categories-scroll-section .scroll-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#categories-scroll-section .nav-link.active {
+    display: none;
+}
+
+#categories-scroll-section .left-arrow {
+    transform: rotate(180deg);
+}
+
+.scroll-arrow:hover {
+    transform: scale(1.1);
+}
+
+.nav-tabs .scroll-arrow {
+    background: var(--scroll-arrow-bg);
+}
+
+.categories-wrap .special-btn:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.categories-start,
+.categories-end {
+    width: 1px;
+}

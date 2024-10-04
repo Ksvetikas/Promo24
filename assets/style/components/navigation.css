@@ -1,0 +1,44 @@
+.navbar-toggler.collapsed .navbar-toggler-icon.closed {
+    display: inline-block;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon.open {
+    display: none;
+}
+
+.navbar-toggler .navbar-toggler-icon.closed {
+    display: none;
+}
+
+.navbar-toggler .navbar-toggler-icon.open {
+    display: inline-block;
+    background-size: 20px 20px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.header-menu-dropdown {
+    min-width: 250px;
+}
+
+.navbar-nav .dropdown-item,
+.nav-link {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--header-text-color);
+}
+
+.navbar-nav .dropdown-menu {
+    position: unset!important;
+    transform: unset!important;
+}
+
+.nav-link:hover,
+.navbar-nav .dropdown-item:hover {
+    background: inherit;
+    transform: scale(1.02);
+    transition: 0.15s ease-in;
+}

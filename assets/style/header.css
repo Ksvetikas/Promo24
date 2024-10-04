@@ -1,0 +1,30 @@
+@import url("components/navigation.css");
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+header .form-control,
+header .btn {
+    font-size: 14px;
+}
+
+header #mobile-header-search,
+header .header-menu-dropdown,
+header hr {
+    z-index: 1;
+}
+
+.mobile-header-logo {
+    width: 174px;
+    height: auto;
+}
+
+#desktop-header {
+    max-width: 1500px;
+}
+
+
+
+
+

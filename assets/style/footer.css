@@ -1,0 +1,60 @@
+.desktop-footer-logo {
+    width: 192px;
+    height: auto;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-family: var(--secondary-font);
+}
+
+#mobile-footer .footer-logo-col p,
+footer .form-control,
+footer .btn {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    font-size: 12px;
+}
+
+.footer-contact-form .email-help {
+    font-size: 11px;
+}
+
+footer a,
+footer p {
+    font-weight: 300;
+}
+
+footer .accordion-button:not(.collapsed)::after,
+footer .accordion-button::after {
+    background-image: url('../img/icons/accordion-arrow-icon.svg');
+    background-position: center;
+    width: 14px;
+    height: 14px;
+}
+
+footer .accordion-button:not(.collapsed)::after {
+    transform: rotate(180deg);
+}
+
+footer .accordion-button:focus {
+    box-shadow: unset;
+}
+
+footer #mobile-footer h3,
+footer .accordion-button {
+    font-size: 16px;
+    font-family: var(--secondary-font);
+}
+
+footer .link-list a:hover {
+    transform: scale(1.02);
+    transition: 0.15s ease-in;
+}
+
+footer .accordion a {
+    font-size: 12px;
+}
+
